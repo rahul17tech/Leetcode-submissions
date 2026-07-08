@@ -15,10 +15,12 @@ class Solution {
                 end1=Math.max(end1,end2);
             }
             else{//no merge
+                //ager merged the ans e dhokalam
                 ans[index][0]=start1;
                 ans[index][1]=end1;
                 index++;
 
+                //notun jeta shuru hobe setake start1 ar end1 e rakhlam
                 start1=start2;
                 end1=end2;
             }
