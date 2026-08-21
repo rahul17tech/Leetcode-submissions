@@ -10,7 +10,7 @@ class Solution {
             int mid=(low+high)/2;
             long totalTime=0;
             for(int i:piles){
-                totalTime+=(i+mid-1)/mid;//Math.ceil(i/mid);
+                totalTime+=(i+mid-1)/mid;//(a+b-1)/b same as ceil(a/b) for positive integers
             }
             if(totalTime<=h){
                 res=mid;
